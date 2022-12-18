@@ -25,6 +25,8 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	runtimeOnly("com.h2database:h2")
 	runtimeOnly("org.postgresql:postgresql")
+	implementation("com.squareup.okhttp3:okhttp:4.9.0")
+	implementation("com.google.code.gson:gson:2.9.0")
 }
 
 tasks.withType<KotlinCompile> {
